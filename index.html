@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory card</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+      integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ="
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+         <div class="main-heading">
+             
+                <div class="navigation">
+                       
+                      <h2>Memory Card</h2>
+
+                       <button class="add">
+                           + Add New Card
+                       </button>
+
+                </div>
+
+                <div class="flip_text hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-repeat" viewBox="0 0 16 16">
+                        <path d="M11.534 7h3.932a.25.25 0 0 1 .192.41l-1.966 2.36a.25.25 0 0 1-.384 0l-1.966-2.36a.25.25 0 0 1 .192-.41zm-11 2h3.932a.25.25 0 0 0 .192-.41L2.692 6.23a.25.25 0 0 0-.384 0L.342 8.59A.25.25 0 0 0 .534 9z"/>
+                        <path fill-rule="evenodd" d="M8 3c-1.552 0-2.94.707-3.857 1.818a.5.5 0 1 1-.771-.636A6.002 6.002 0 0 1 13.917 7H12.9A5.002 5.002 0 0 0 8 3zM3.1 9a5.002 5.002 0 0 0 8.757 2.182.5.5 0 1 1 .771.636A6.002 6.002 0 0 1 2.083 9H3.1z"/>
+                      </svg>
+                    <h2>Flip</h2>
+                </div>
+
+                 <div class="cards hidden">
+                         
+                      <!-- <div class="card">
+                          <div class="card_front">
+                                
+                              <div class="ques">
+                                  What is CSS ?
+                              </div>
+                               
+                          </div>
+
+                          <div class="card-back ">
+                              <div class="answer">
+                                  A Programming Language .
+                              </div>
+                          </div>
+                      </div> -->
+
+                     <!--  <div class="card">
+                          <div class="card_front">
+                                
+                              <div class="ques">
+                                  What is PHP ?
+                              </div>
+                               
+                          </div>
+
+                          <div class="card-back">
+                              <div class="answer">
+                                  A Programming Language .
+                              </div>
+                          </div>
+                      </div> -->
+                          
+
+                 </div>
+
+                 <div class="pagination hidden">
+                    <button id="prev" class="nav-button">
+                      <i class="fas fa-arrow-left"></i>
+                    </button>
+              
+                    <p id="current"></p>
+              
+                    <button id="next" class="nav-button">
+                      <i class="fas fa-arrow-right"></i>
+                    </button>
+                  </div>
+
+                 <div class="add_box hidden">
+
+                    <h1 class="text">
+                        Add New Card
+                        <button id="hide" class="btn btn-small btn-ghost">
+                           <h4 class="icon">X</h4>
+                        </button>
+                      </h1>
+                    <div class="ques_box">
+
+                        <h2 class="ques_heading">Questions</h2>
+                        <textarea name="text" class="question_text"></textarea>
+                    </div>
+
+                    <div class="ans_box">
+
+                        <h2 class="ans_heading">Answer</h2>
+                        <textarea name="text" class="answer_text"></textarea>
+                    </div>
+
+                    <button class="add_card">
+                        + Add Card
+                    </button>
+                      
+                     
+                 </div>
+
+                 
+                    <button id="clear" class="clear btn">
+                        <i class="fas fa-trash"></i> Clear Cards
+                      </button>
+                 
+         </div>
+</body>
+<script src="./script.js"></script>
+</html>
