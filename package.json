@@ -1,0 +1,23 @@
+{
+  "name": "memory",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcrl build index.html --dist-dir ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rocky-08/Memory-Card.git"
+  },
+  "author": "kartik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rocky-08/Memory-Card/issues"
+  },
+  "homepage": "https://github.com/Rocky-08/Memory-Card#readme",
+  "devDependencies": {
+    "parcel": "^2.0.0-beta.3.1"
+  }
+}
